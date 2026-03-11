@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>VirtualDrive - Register</title>
+
+<style>
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg,#4facfe,#00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    width:300px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#4285f4;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2f6fe4;
+}
+
+.link{
+    text-align:center;
+    margin-top:15px;
+}
+
+a{
+    text-decoration:none;
+    color:#4285f4;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Register</h2>
+
+<form action="register" method="post">
+
+<label>Name</label>
+<input type="text" name="name">
+
+<label>Email</label>
+<input type="text" name="email">
+
+<label>Password</label>
+<input type="password" name="pass">
+
+<label>Confirm Password</label>
+<input type="password" name="cpass">
+
+<button type="submit">Register</button>
+
+</form>
+
+<div class="link">
+Already have account? <a href="login.html">Login</a>
+</div>
+
+</div>
+
+</body>
+</html>
