@@ -15,4 +15,7 @@ WEB-INF/lib/
    -> mysql-connector-j-9.3.0.jar
 
 Storage Folder
-C:/VirtualDriveStorage
+C:/VirtualDriveStorage 
+
+<img width="1919" height="827" alt="image" src="https://github.com/user-attachments/assets/6a199a16-6050-4cc8-b4b7-20fafb37ac1b" />
+
